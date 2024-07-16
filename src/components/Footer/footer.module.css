@@ -1,0 +1,31 @@
+.footer {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: black;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h2 {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.column p {
+    font-size: 1vw;
+}
