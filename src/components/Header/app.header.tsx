@@ -29,7 +29,7 @@ const AppHeader = () => {
   return (
     <nav className="gb-gray-800 text-black p-4 sm:p-6 md:flex md:justify-between md:items-center">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="" className={style["a"]}>
+        <a href="" className="text-black font-bold text-2xl pb-4">
           NGUYEN HOAI SON
         </a>
         <div className={getMenuClasses()}>
