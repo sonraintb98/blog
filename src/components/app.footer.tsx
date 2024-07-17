@@ -1,5 +1,12 @@
 import React from "react";
-import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaYoutube,
+  FaFacebook,
+  FaSkype,
+} from "react-icons/fa";
 
 const AppFooter = () => {
   return (
@@ -8,13 +15,13 @@ const AppFooter = () => {
         <div className="p-5">
           <ul>
             <p className="text-gray-800 font-bold text-3xl pb-6">
-              strean<span className="text-blue-600">line</span>
+              Follow<span className="text-blue-600">Me</span>
             </p>
             <div className="flex gap-6 pb-5">
               <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
-              <FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
+              <FaFacebook className="text-2xl cursor-pointer hover:text-blue-600" />
               <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-              <FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
+              <FaSkype className="text-2xl cursor-pointer hover:text-blue-600" />
             </div>
           </ul>
         </div>
