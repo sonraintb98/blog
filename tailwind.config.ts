@@ -18,6 +18,7 @@ const config: Config = {
         body: ".875rem",
       },
       screens: {
+        smx: "200px",
         sm: "480px",
         md: "768px",
         lg: "976px",

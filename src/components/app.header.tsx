@@ -28,8 +28,10 @@ const AppHeader = () => {
   return (
     <nav className="gb-gray-800 text-black p-4 sm:p-6 md:flex md:justify-between md:items-center">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-black font-bold text-2xl pb-4">
-          NGUYEN HOAI SON
+        <Link href="/" className="pb-4">
+          <span className="text-black font-bold 2xl:text-2xl xl:text-xl lg:text-lg md:text-base sm:text-sm">
+            NGUYEN HOAI SON
+          </span>
         </Link>
         <div className={getMenuClasses()}>
           <Link href="/resume" className="mx-2 hover:text-gray-100">
