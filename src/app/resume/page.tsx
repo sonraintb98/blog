@@ -291,6 +291,74 @@ const page = () => {
           </div>
         </div>
       </div>
+
+      {/* Hobbies & Soft skills */}
+      <div className=" w-full flex md:flex-row flex-col justify-around items-start p-3 border-b border-gray-400">
+        <div className=" 2xl:w-1/2 xl:w-1/2 md:w-auto flex items-center justify-center text-center">
+          <span className=" text-black font-bold 2xl:text-xl xl:text-lg lg:text-base md:text-sm smx:text-xs">
+            Hobbies & Soft skills
+          </span>
+        </div>
+        <div className=" 2xl:w-1/2 xl:w-1/2 md:w-auto flex md:flex-col flex-col justify-start items-start">
+          <div className=" md:w-full flex md:flex-row flex-col justify-start items-start pb-10">
+            <div className=" 2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-full sm:w-full smx:w-full">
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs"></span>
+            </div>
+            <div className=" 2xl:w-3/4 smx:w-auto flex md:flex-col flex-col justify-around items-start">
+              <span className="font-bold 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                {/* University Of Science And Technology */}
+              </span>
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                Participate in team building activities
+              </span>
+            </div>
+          </div>
+
+          <div className=" md:w-full flex md:flex-row flex-col justify-start items-start pb-10">
+            <div className=" 2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-full sm:w-full smx:w-full">
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs"></span>
+            </div>
+            <div className=" 2xl:w-3/4 smx:w-auto flex md:flex-col flex-col justify-around items-start">
+              <span className="font-bold 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                {/* University Of Science And Technology */}
+              </span>
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                I have a passion for football. I often play soccer with everyone
+                in the company. I also love jogging. I often jog after work.
+              </span>
+            </div>
+          </div>
+
+          <div className=" md:w-full flex md:flex-row flex-col justify-start items-start pb-10">
+            <div className=" 2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-full sm:w-full smx:w-full">
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs"></span>
+            </div>
+            <div className=" 2xl:w-3/4 smx:w-auto flex md:flex-col flex-col justify-around items-start">
+              <span className="font-bold 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                {/* University Of Science And Technology */}
+              </span>
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                I would love to travel.In my free time, I like to read books,
+                watch movies or listen to music.
+              </span>
+            </div>
+          </div>
+
+          <div className=" md:w-full flex md:flex-row flex-col justify-start items-start pb-10">
+            <div className=" 2xl:w-1/4 xl:w-1/4 lg:w-1/4 md:w-full sm:w-full smx:w-full">
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs"></span>
+            </div>
+            <div className=" 2xl:w-3/4 smx:w-auto flex md:flex-col flex-col justify-around items-start">
+              <span className="font-bold 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                {/* University Of Science And Technology */}
+              </span>
+              <span className="2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-sm smx:text-xs">
+                I can study on my own and have fun with my colleagues
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

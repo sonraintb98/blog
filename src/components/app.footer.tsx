@@ -27,51 +27,51 @@ const AppFooter = () => {
         </div>
         <div className="p-5">
           <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
+            <p className="text-gray-800 font-bold text-2xl pb-4">Resume</p>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Stocks
+              Education
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Futures & Options
+              Work Experience
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Mutual Funds
+              Skills & Expertise
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Fixed deposits
+              Hobbies & Soft skills
             </li>
           </ul>
         </div>
         <div className="p-5">
           <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
+            <p className="text-gray-800 font-bold text-2xl pb-4">Project</p>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              About
+              Web
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Products
+              Flutter
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Pricing
+              Activity
             </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+            {/* <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
               Careers
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
               Press & Media
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="p-5">
           <ul>
-            <p className="text-gray-800 font-bold text-2xl pb-4">Support</p>
+            <p className="text-gray-800 font-bold text-2xl pb-4">Contact</p>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Contact
+              Email: hoaisonkt1998@gmail.com
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-              Support Portals
+              Phone: 0945006158
             </li>
-            <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+            {/* <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
               List Of Charges
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
@@ -79,7 +79,7 @@ const AppFooter = () => {
             </li>
             <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
               Videos
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
