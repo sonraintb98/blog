@@ -12,7 +12,7 @@ const AppHeader = () => {
         "flex",
         "absolute",
         "top-[60px]",
-        "bg-gray-800",
+        "bg-gray-300",
         "w-full",
         "p-4",
         "left-0",
@@ -26,7 +26,7 @@ const AppHeader = () => {
   }
 
   return (
-    <nav className="gb-gray-800 text-black p-4 sm:p-6 md:flex md:justify-between md:items-center">
+    <nav className="bg-gray-300 text-black sm:p-6 md:flex md:justify-between md:items-center">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="pb-4">
           <span className="text-black font-bold 2xl:text-2xl xl:text-xl lg:text-lg md:text-base sm:text-sm">
@@ -34,13 +34,31 @@ const AppHeader = () => {
           </span>
         </Link>
         <div className={getMenuClasses()}>
-          <Link href="/resume" className="mx-2 hover:text-gray-100">
+          <Link
+            href="/resume"
+            className="mx-2 hover:text-gray-100"
+            onClick={() => {
+              setIsOpen(!isOpen);
+            }}
+          >
             Resume
           </Link>
-          <Link href="/projects" className="mx-2 hover:text-gray-100">
+          <Link
+            href="/projects"
+            className="mx-2 hover:text-gray-100"
+            onClick={() => {
+              setIsOpen(!isOpen);
+            }}
+          >
             Projects
           </Link>
-          <Link href="/contact" className="mx-2 hover:text-gray-100">
+          <Link
+            href="/contact"
+            className="mx-2 hover:text-gray-100"
+            onClick={() => {
+              setIsOpen(!isOpen);
+            }}
+          >
             Contact
           </Link>
         </div>
