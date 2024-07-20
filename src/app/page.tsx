@@ -15,7 +15,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="2xl:w-1/2 smx:w-full p-5">
         <div className="h-auto w-full flex md:flex-col flex-col justify-between">
           <div className="p-2">
             <p className="text-5xl font-bold">Hello</p>
