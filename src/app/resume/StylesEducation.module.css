@@ -76,7 +76,7 @@
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 6s linear forwards;
+    animation: moveline 3s linear forwards;
 }
 
 @keyframes moveline {

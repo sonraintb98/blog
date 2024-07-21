@@ -11,7 +11,7 @@ const Education = () => {
         <Image src={bkIcon} alt="" className={styles.image} />
         <div className={styles.textBox}>
           <h2 className={styles.h2}>University Of Science And Technology</h2>
-          <small className={styles.small}>09/2016 -- 05/2018</small>
+          <small className={styles.small}>Sep 2016 -- May 2018</small>
           <p>
             I study at University Of Science And Technology. My major is
             construction engineer. With a passion for information technology. So
@@ -29,7 +29,7 @@ const Education = () => {
         />
         <div className={styles.textBox}>
           <h2 className={styles.h2}>FPT University</h2>
-          <small className={styles.small}>05/2018 -- 12/2020</small>
+          <small className={styles.small}>May 2018 -- Dec 2020</small>
           <p>I graduated from FPT university with Bachelor of IT degree.</p>
           <span className={styles.rightContainerArrow}></span>
         </div>
