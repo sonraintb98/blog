@@ -1,4 +1,3 @@
-import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import avatar from "../../public/avatar.png";
 import Link from "next/link";
@@ -18,16 +17,24 @@ export default function Home() {
       <div className="2xl:w-1/2 smx:w-full p-5">
         <div className="h-auto w-full flex md:flex-col flex-col justify-between">
           <div className="p-2">
-            <p className="text-5xl font-bold">Hello</p>
+            <p className="text-5xl font-bold">
+              Hello, I’m
+              <span className="text-orange-700 font-bold">
+                {" "}
+                Nguyen Hoai Son
+              </span>
+            </p>
           </div>
           <div className="p-2">
             <p className="text-2xl font-bold">A Bit About Me</p>
           </div>
           <div className="p-2 xl:w-1/2">
             <p className="">
-              I’m a devloper. Click here to add your own text and edit me. I’m a
-              great place for you to tell a story and let your users know a
-              little more about you.
+              I’m a developer. I graduated from FPT University. I have been
+              working for more than 2 years. I am very active and eager to
+              learn. I also love playing sports and jogging. In my free time, I
+              like reading books, watching movies, listening to music and
+              playing games. You can click Resume to know more about me.
             </p>
           </div>
           <div className="2xl:w-9/12 2xl:h-36 xl:w-9/12 xl:h-32 lg:w-9/12 lg:h-28 md:w-9/12 md:h-24 sm:w-9/12 sm:h-20 flex md:flex-row flex-row justify-between">
