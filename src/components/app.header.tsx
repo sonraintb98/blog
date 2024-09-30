@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const AppHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
+  console.log("isOpen: ", isOpen);
 
   function getMenuClasses() {
     let menuClasses = [];
@@ -38,7 +39,9 @@ const AppHeader = () => {
             href="/resume"
             className="mx-2 hover:text-gray-100"
             onClick={() => {
-              setIsOpen(!isOpen);
+              if (isOpen) {
+                setIsOpen(!isOpen);
+              }
             }}
           >
             Resume
@@ -47,7 +50,9 @@ const AppHeader = () => {
             href="/projects"
             className="mx-2 hover:text-gray-100"
             onClick={() => {
-              setIsOpen(!isOpen);
+              if (isOpen) {
+                setIsOpen(!isOpen);
+              }
             }}
           >
             Projects
@@ -56,7 +61,9 @@ const AppHeader = () => {
             href="/contact"
             className="mx-2 hover:text-gray-100"
             onClick={() => {
-              setIsOpen(!isOpen);
+              if (isOpen) {
+                setIsOpen(!isOpen);
+              }
             }}
           >
             Contact
